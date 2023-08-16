@@ -1,0 +1,71 @@
+body{
+    background-color: #c7ebf0;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.navbar{
+    background: linear-gradient(#BF8B85, #c7ebf0);
+}
+/* Previous coding experience */
+
+ul{
+/* could also be declared in HTML WITH bootsrap but I didn't use bootstap here */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+/* label for each webpage */
+.option{
+    display: inline;
+    text-align: center;
+    padding:15px;
+}
+li.option a{
+        text-decoration: none;
+       /* get rid of underline */
+}
+
+.logo{
+ width: 100px;
+ height: 100px;
+
+}
+h1{
+    text-shadow: 1px 1px #DABECA;
+}
+h3{
+    text-shadow: 2px 2px #DABECA
+}
+/* bullet points */
+
+ol{
+    list-style-type: none;
+}
+.fact{
+    text-align: center;
+}
+/* Code for my image container*/
+.me{
+    /* flexbox needs to be applied to the parent element */
+    display: flex;
+    justify-content: space-between;
+
+}
+img{
+/* make image circular and I played around with the image size */
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.people{
+/* W3schools because I needed to rotate this image https://www.w3schools.com/csSref/css3_pr_transform.php */
+    transform: rotate(270deg);
+}
+/* footer code */
+.bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
